@@ -1,0 +1,63 @@
+/* Base Reset and Font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f8fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005b96;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+section {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #007acc;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+section h3 {
+  color: #005b96;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #e1ecf4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+section:last-child {
+  margin-bottom: 60px;
+}
